@@ -44,7 +44,10 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-image: url("https://th.bing.com/th/id/R.3b5ebd4e36c86f1db3f420731035ec0d?rik=ZEQxMavsXWlHeA&pid=ImgRaw&r=0");
+    background-image: url("https://th.bing.com/th/id/OIP.KxcCjAklPl2ip8pf5RB71wHaFQ?pid=ImgDet&rs=1");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .banner-text{
     color: rgb(0, 0, 0);
@@ -74,6 +77,38 @@
 }
 
 .banner-button{
+    padding: 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 45px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    /* flex-direction: row-reverse; */
+    
+}
+.about-img{
+    width: 350px;
+}
+.about-title{
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.about-content{
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+.about-button{
     padding: 12px;
     background-color: green;
     color: white;
