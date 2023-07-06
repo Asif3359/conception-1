@@ -123,6 +123,7 @@
     box-shadow: 5px 5px 15px  rgba(70, 69, 69, 0.586);
     border-radius: 3px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 .box-image{
     width: 70px;
@@ -159,4 +160,51 @@
     background-color: rgba(185, 185, 185, 0.242);
 
 
+}
+.footer-box{
+    width: 200px;
+}
+.footer-section{
+    display: flex;
+    padding: 30px;
+    padding-left: 90px;
+    padding-right: 90px;
+    /* margin-bottom: 20px; */
+    /* background-color: black; */
+    color: white;
+    justify-content: space-around;
+
+}
+.footer-box{
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+
+}
+.footer-container-foot{
+    background-color: rgb(27, 27, 27);
+}
+.foot{
+    justify-content:right;
+    text-align: center;
+    color: white;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.foot-text{
+    padding: 10px;
+}
+.usefull-link{
+    text-decoration: none;
+    padding: 4px;
+    color: white;
+
+}
+.footer-tite{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.contact-info{
+    padding: 4px;
 }
