@@ -1,0 +1,82 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container{
+    background-color: rgb(50, 50, 50);
+    /* padding: 20px; */
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.menus{
+    display:flex;
+}
+
+.item{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 17px;
+    padding: 11px;
+}
+
+.item:hover{
+    background-color: gray;
+    color: white;
+}
+
+.logo-img{
+    padding: 10px;
+    font-size:30px;
+}
+
+.banner-container{
+    border: 5px solid gray;
+    width: 100%vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("https://th.bing.com/th/id/R.3b5ebd4e36c86f1db3f420731035ec0d?rik=ZEQxMavsXWlHeA&pid=ImgRaw&r=0");
+}
+.banner-text{
+    color: rgb(0, 0, 0);
+}
+.banner-img{
+    width: 400px;
+}
+.banner-content{
+    text-align: justify; 
+}
+.banner-title{
+    width: 64%;
+    padding-bottom:10px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    background-color: rgba(86, 84, 204, 0.4);
+    border-radius: 4px;
+    backdrop-filter: blur(1px);
+
+}
+.banner-content{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.banner-button{
+    padding: 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
