@@ -38,7 +38,7 @@
 }
 
 .banner-container{
-    border: 5px solid gray;
+    /* border: 5px solid gray; */
     width: 100%vh;
     height: 100vh;
     display: flex;
@@ -61,7 +61,7 @@
     font-size: 35px;
     margin-bottom: 10px;
     background-color: rgba(86, 84, 204, 0.4);
-    /* border-radius: 4px; */
+    border-radius: 4px;
     backdrop-filter: blur(1px);
 
 }
